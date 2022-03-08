@@ -1,0 +1,10 @@
+.how__it-works {
+  // Was a white line between the two so i put minus margin to fix it
+  // couldn't find any reason for the white line to be there
+  margin-top: -3px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/how-it-works.png');
+  width: 100vw;
+  height: 340px;
+}
