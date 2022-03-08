@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3dcc0f8927.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +13,7 @@
     <title>BHROMAON</title>
   </head>
   <body>
+    <!-- HEADER START -->
     <header>
       <div class="top__container">
         <div class="search">
@@ -26,14 +28,16 @@
             </form>
           </div>
           <div class="search__scroll">
-            <a href="#">Scroll Down</a>
-            <a href="#"><img src="./images/arrow down.png" alt="arrow down" /></a>
+            <a href="#scroll">Scroll Down</a>
+            <a href="#scroll"><img src="./images/arrow down.png" alt="arrow down" /></a>
           </div>
         </div>
       </div>
+
+      <!-- NAV START -->
       <nav>
         <div class="nav__cont">
-          <h2 class="nav__cont-logo">BHROMAON</h2>
+          <h2 class="nav__cont-logo" id="scroll">BHROMAON</h2>
           <ul class="nav__cont-links">
             <li><a href="#">who we are</a></li>
             <li><a href="#">what we do</a></li>
@@ -44,6 +48,7 @@
       </nav>
     </header>
 
+    <!-- MAIN START -->
     <main>
       <div class="choose__background">
         <div class="choose__">
@@ -51,7 +56,7 @@
             <h3>Why Choose Us</h3>
             <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
             <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
-            <button>Explore Places</button>
+            <button type="button">Explore Places</button>
           </div>
           <div class="choose__images">
             <img src="./images/house-over-water.png" alt="House by a lake" />
@@ -60,9 +65,60 @@
         </div>
       </div>
 
-      <div class="how__it-works">
-        <!-- <img src="./images/how-it-works.png" alt="Illustrating how the process works" /> -->
+      <!-- HOW IT WORKS -->
+      <div class="how__it-works"></div>
+
+      <!-- SPAIN -->
+      <div class="spain__top">
+        <div class="spain__top-cont spain__content">
+          <h5>spain</h5>
+          <h4>grand spain madrid</h4>
+          <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
+          <button type="button">BOOK NOW</button>
+        </div>
       </div>
+
+      <div class="spain__bottom">
+        <div class="spain__bottom-cont spain__content">
+          <h5>spain</h5>
+          <h4>grand spain madrid</h4>
+          <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
+          <button type="button">BOOK NOW</button>
+        </div>
+      </div>
+
+      <!-- TOURIST -->
+      <div class="tourist__">
+        <h3>What Our Tourists Say</h3>
+        <div class="tourist__cont">
+          <img src="./images/person-mountain.png" alt="Person looking out over mountains" />
+          <div class="tourist__cont-text">
+            <h5>Sam Sumon</h5>
+            <p>
+              <!-- I tried using font awesome, trubbleshooting for and hour but i just get a square -->
+              <span><img class="quote" src="./images/quote-left-solid.svg" alt="quote" /></span>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain
+              But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account born and I account will give you a complete account of the system
+              was account born and I account will give you a nai the complete account of the system
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER START -->
+      <footer>
+        <div class="footer__cont">
+          <h6>BHROMAON</h6>
+          <p>Safe Travel Anywhere</p>
+          <!-- Again, i tried using fontawesome but i just get squares, so i downloaded the svgs from FA -->
+          <div class="footer__cont-links">
+            <a href="#"><img src="./images/facebook-icon.svg" alt="Facebook" /></a>
+            <a href="#"><img src="./images/twitter-icon.svg" alt="Twitter" /></a>
+            <a href="#"><img src="./images/linkedin-icon.svg" alt="Linked-in" /></a>
+            <a href="#"><img src="./images/youtube-icon.svg" alt="Youtube" /></a>
+            <a href="#"><img src="./images/pintrest-icon.svg" alt="Pintrest" /></a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

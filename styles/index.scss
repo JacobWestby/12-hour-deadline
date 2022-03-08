@@ -2,7 +2,22 @@
 @import 'nav';
 @import 'choose';
 @import 'how-it-works';
+@import 'spain-top';
+@import 'spain-bottom';
+@import 'tourist';
+@import 'footer';
 
 body {
   overflow-x: hidden;
+  background-color: #333333;
+  scroll-behavior: smooth;
+}
+
+button {
+  transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #9fadee;
 }
