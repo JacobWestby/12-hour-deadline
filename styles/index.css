@@ -1,0 +1,152 @@
+header {
+  width: 100%;
+  height: 89vh;
+  background-image: url("../images/mountains.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.search__text {
+  font-family: "Josefin Sans";
+  line-height: 26px;
+  font-style: normal;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.search__text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.search__text p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 6.82px;
+}
+.search__search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.search__search form input[type=text] {
+  width: 503px;
+  max-width: 653px;
+  height: 63px;
+  max-height: 63px;
+  border: none;
+}
+.search__search form input[type=text]::-webkit-input-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.search__search form input[type=text]::-moz-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.search__search form input[type=text]:-ms-input-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.search__search form input[type=text]::-ms-input-placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.search__search form input[type=text]::placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.search__search form input[type=button] {
+  background: #5474fd;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 153px;
+  height: 65px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.search__scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.search__scroll a:not(:nth-child(2)) {
+  margin-top: 50px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  text-decoration: none;
+}
